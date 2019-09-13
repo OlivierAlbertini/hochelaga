@@ -108,6 +108,83 @@
   }
 }
 
+//List group of form item; radios, checkboxes
+.list-group-item {
+
+  .custom-checkbox,
+  .custom-radio {
+    margin: 0rem;
+    padding-left: 2.5rem;
+    width: 100%;
+    label {
+      display: block;
+      width: 100%;  
+      padding: 0.5rem 0;  
+    }
+  }
+
+  .custom-checkbox {
+    .custom-control-input {
+      & ~ .custom-control-label {
+        &:after {
+          top: -0.158rem;
+        }
+        &:before {
+          top: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .custom-radio {
+    label {
+      &:before, 
+      &:after {
+        top: 0.5rem;
+      }
+    }
+  }
+
+}
+
+.list-group-checkbox,
+.list-group-radio {
+  
+  &.list-group-lg {
+    .list-group-item {
+      
+      .custom-checkbox,
+      .custom-radio {
+        label {
+          padding: 1rem 0;  
+        }
+      }
+
+      .custom-radio {
+        label {
+          &:before, 
+          &:after {
+            top: 1rem;
+          }
+        }
+      }
+
+      .custom-checkbox {
+        .custom-control-input {
+          & ~ .custom-control-label {
+            &:after {
+              top: 0.35rem;
+            }
+            &:before {
+              top: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 //
 // Individual list items
 //

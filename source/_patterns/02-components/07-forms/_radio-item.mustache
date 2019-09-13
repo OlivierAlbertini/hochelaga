@@ -1,9 +1,4 @@
-{{# label }}
-<label class="">{{ label }}</label>
-{{/ label}}
-{{# formRadiosItems}}
 <div class="custom-control custom-radio {{ class }} ">
   <input type="radio" id="{{ id }}" name="{{ name }}" class="custom-control-input" value="{{ id }}" {{ state }}>
-  <label class="custom-control-label" for="{{ id }}">{{{ label }}}</label>
+  <label class="custom-control-label" for="{{ id }}">{{{ text }}}</label>
 </div>
-{{/ formRadiosItems}}

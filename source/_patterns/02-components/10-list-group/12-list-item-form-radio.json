@@ -1,0 +1,87 @@
+{
+  "listRadio1": {
+    "listGroupClass": "list-group-radio list-group-delimiter",
+    "listGroup": [
+      {
+        "formElement": "radio",
+        "formElement=radio": true,
+        "class": "",
+        "id": "rdio01-1",
+        "text": "Radio",
+        "name": "radiosGroup",
+        "state": false
+      },
+      {
+        "formElement": "radio",
+        "formElement=radio": true,
+        "class": "",
+        "id": "rdio02-1",
+        "text": "Radio two",
+        "name": "radiosGroup",
+        "state": false
+      },
+      {
+        "formElement": "radio",
+        "formElement=radio": true,
+        "class": "",
+        "id": "rdio03-1",
+        "text": "Radio three",
+        "state": "checked",
+        "name": "radiosGroup",
+        "state": false
+      },
+      {
+        "formElement": "radio",
+        "formElement=radio": true,
+        "class": "",
+        "id": "rdio04-1",
+        "text": "Radio four, disabled",
+        "state": "disabled",
+        "name": "radiosGroup",
+        "state": false
+      }
+    ]
+  },
+  "listRadio2": {
+    "listGroupClass": "list-group-radio list-group-delimiter",
+    "listGroup": [
+      {
+        "formElement": "radio",
+        "formElement=radio": true,
+        "class": "",
+        "id": "rdio-1",
+        "text": "Radio",
+        "name": "radiosGroup2",
+        "state": false
+      },
+      {
+        "formElement": "radio",
+        "formElement=radio": true,
+        "class": "",
+        "id": "rdio-2",
+        "text": "Radio two",
+        "name": "radiosGroup2",
+        "state": false
+      },
+      {
+        "formElement": "radio",
+        "formElement=radio": true,
+        "class": "",
+        "id": "rdio-3",
+        "text": "Radio three",
+        "name": "radiosGroup2",
+        "state": false
+      },
+      {
+        "formElement": "radio",
+        "formElement=radio": true,
+        "class": "",
+        "id": "rdio-4",
+        "text": "Radio four",
+        "name": "radiosGroup2",
+        "state": false
+      }
+    ]
+  }
+}
+

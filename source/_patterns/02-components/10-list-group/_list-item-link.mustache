@@ -1,12 +1,27 @@
-<ul class="list-group {{ listGroupClass }}">
+<ul class="list-group {{ listGroupClass }} {{# listGroupLg }}list-group-lg{{/ listGroupLg }} ">
 	{{# listGroup }}
   <li class="list-group-item list-group-item-action {{ class }}">
-    <a href="{{ url }}"{{# classLink }} class="{{classLink}}"{{/ classLink }}>
-      {{# icon-name}}
-      <span class="icon {{ icon-name}}" aria-hidden="true"></span>
-      {{/ icon-name}}
-      {{{ text }}}
-    </a>
+    {{^ formElement }}
+      <a href="{{ url }}"{{# classLink }} class="{{classLink}}"{{/ classLink }}>
+        {{# icon-name}}
+            <span class="icon {{ icon-name}}" aria-hidden="true"></span>
+        {{/ icon-name}}
+        {{{ text }}}
+      </a>
+    {{/ formElement }}
+
+    {{# formElement }}
+
+      {{# formElement=checkbox }}
+        {{> components-checkbox-item }}
+      {{/ formElement=checkbox }}
+
+
+      {{# formElement=radio }}
+        {{> components-radio-item }}
+      {{/ formElement=radio }}
+
+    {{/ formElement }}
   </li>
   {{/ listGroup }}
 </ul>

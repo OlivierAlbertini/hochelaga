@@ -2,23 +2,38 @@
 
 <ul class="row list-unstyled">
   <li class="col-xs-6 col-md-4">
-    {{# formRadiosSmall}}
+	{{# formRadiosSmall}}
 		<div class="form-group-sm">
-  			{{> components-radio-item }}
+			{{# radioGroupheading }}
+				<label class="d-block">{{ radioGroupheading }}</label>
+			{{/ radioGroupheading}}
+			{{# formRadiosItems}}
+			{{> components-radio-item }}
+			{{/ formRadiosItems}}
 		</div>
 	{{/ formRadiosSmall}}
   </li>
   <li class="col-xs-6 col-md-4">
     {{# formRadios}}
 		<div class="form-group">
-  			{{> components-radio-item }}
+			{{# radioGroupheading }}
+				<label class="d-block">{{ radioGroupheading }}</label>
+			{{/ radioGroupheading}}
+			{{# formRadiosItems}}
+			{{> components-radio-item }}
+			{{/ formRadiosItems}}
 		</div>
 	{{/ formRadios}}
   </li>
   <li class="col-xs-6 col-md-4">
-    {{# formRadiosLarge }}
+  	{{# formRadiosLarge}}
 		<div class="form-group-lg">
-  			{{> components-radio-item }}
+			{{# radioGroupheading }}
+				<label class="d-block">{{ radioGroupheading }}</label>
+			{{/ radioGroupheading}}
+			{{# formRadiosItems}}
+			{{> components-radio-item }}
+			{{/ formRadiosItems}}
 		</div>
 	{{/ formRadiosLarge}}
   </li>
@@ -28,25 +43,40 @@
 
 <ul class="row list-unstyled">
   <li class="col-md-12">
-	{{# formRadiosSmallInline }}
+  	{{# formRadiosSmallInline}}
 		<div class="form-group-sm">
-  			{{> components-radio-item }}
+			{{# radioGroupheading }}
+				<label class="d-block">{{ radioGroupheading }}</label>
+			{{/ radioGroupheading}}
+			{{# formRadiosItems}}
+			{{> components-radio-item }}
+			{{/ formRadiosItems}}
 		</div>
-	{{/ formRadiosSmallInline }}
+	{{/ formRadiosSmallInline}}
   </li>
   <li class="col-md-12">
-	{{# formRadiosInline }}
+  	{{# formRadiosInline}}
 		<div class="form-group">
-  			{{> components-radio-item }}
+			{{# radioGroupheading }}
+				<label class="d-block">{{ radioGroupheading }}</label>
+			{{/ radioGroupheading}}
+			{{# formRadiosItems}}
+			{{> components-radio-item }}
+			{{/ formRadiosItems}}
 		</div>
-	{{/ formRadiosInline }}
+	{{/ formRadiosInline}}
   </li>
   <li class="col-md-12">
-	{{# formRadiosLargeInline }}
+	{{# formRadiosLargeInline}}
 		<div class="form-group-lg">
-  			{{> components-radio-item }}
+			{{# radioGroupheading }}
+				<label class="d-block">{{ radioGroupheading }}</label>
+			{{/ radioGroupheading}}
+			{{# formRadiosItems}}
+			{{> components-radio-item }}
+			{{/ formRadiosItems}}
 		</div>
-	{{/ formRadiosLargeInline }}
+	{{/ formRadiosLargeInline}}
   </li>
 </ul>
 

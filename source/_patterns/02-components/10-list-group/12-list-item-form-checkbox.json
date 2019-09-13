@@ -1,0 +1,61 @@
+{
+  "listCheckbox1": {
+    "listGroupClass": "list-group-checkbox list-group-delimiter",
+    "listGroup": [
+      {
+        "formElement": "checkbox",
+        "formElement=checkbox": true,
+        "headings": false,
+        "id": "chk01-2",
+        "text": "Checkbox",
+        "state": false
+      },
+      {
+        "formElement": "checkbox",
+        "formElement=checkbox": true,
+        "headings": false,
+        "id": "chk02-2",
+        "text": "Checkbox two",
+        "state": false
+      },
+      { 
+        "formElement": "checkbox",
+        "formElement=checkbox": true,
+        "headings": false,
+        "id": "chk03-2",
+        "text": "Checkbox three, disabled",
+        "state": false
+      }
+    ]
+  },
+  "listCheckbox2": {
+    "listGroupClass": "list-group-checkbox list-group-delimiter",
+    "listGroup": [
+      {
+        "formElement": "checkbox",
+        "formElement=checkbox": true,
+        "headings": false,
+        "id": "chk-0",
+        "text": "Checkbox",
+        "state": false
+      },
+      {
+        "formElement": "checkbox",
+        "formElement=checkbox": true,
+        "headings": false,
+        "id": "chk-1",
+        "text": "Checkbox two",
+        "state": false
+      },
+      { 
+        "formElement": "checkbox",
+        "formElement=checkbox": true,
+        "headings": false,
+        "id": "chk-2",
+        "text": "Checkbox three, disabled",
+        "state": false
+      }
+    ]
+  }
+}
+
