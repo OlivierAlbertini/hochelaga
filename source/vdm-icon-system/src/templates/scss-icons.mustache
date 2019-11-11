@@ -7,13 +7,13 @@ $data-icon-{{{name}}}: "{{{inline}}}";
 	&:before {
 		-webkit-mask: url($data-icon-{{{name}}}) no-repeat 50% 50%;
 		mask: url($data-icon-{{{name}}}) no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
 		width: {{{width}}};
 		height: {{{height}}};
-      	content: '';
-      	display: inline-block;
-      	-webkit-mask-size: cover;
-      	mask-size: cover;
-      	background-color: $neutral-tertiary;
+    content: '';
+    display: inline-block;
+    background-color: $neutral-tertiary;
 	}
 }
 {{/svgs}}
