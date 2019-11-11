@@ -126,19 +126,20 @@ gulp.task("jsonIconEditorial", ["icon-editorial"], function() {
       jsonTransform(function(data) {
         var objects = [],
           keys = Object.keys(data);
-          console.log(keys);
-        /*for (var i = 0; i < keys.length; i++) {
-          for (var j = 0; j < keys[i].length; j++) {
-            //console.log(data[keys[i]]);
+        for (var i = 0; i < keys.length; i++) {
+          var sousObjects = data[keys[i]],
+            sousKeys = Object.keys(sousObjects);
+          console.log(sousKeys);
+          for (var j = 0; j < sousKeys.length; j++) {
+            
             objects.push({
-              name: keys[i].replace(".svg", ""),
-              data: data[keys[i]]
+              name: sousKeys[j].replace(".svg", ""),
+              data: data[sousKeys[j]]
             });
           }
         
         }
         return objects;
-        */
       })
     )
     .pipe(gulp.dest("icons/editorial/"));
