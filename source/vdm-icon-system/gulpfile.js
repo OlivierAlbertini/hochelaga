@@ -124,25 +124,47 @@ gulp.task("jsonIconEditorial", ["icon-editorial"], function() {
     .pipe(fc2json("icon-editorial.json"))
     .pipe(
       jsonTransform(function(data) {
-        var objects = [],
-          keys = Object.keys(data);
-        for (var i = 0; i < keys.length; i++) {
-          var sousObjects = data[keys[i]],
-            sousKeys = Object.keys(sousObjects);
-          console.log(sousKeys);
-          for (var j = 0; j < sousKeys.length; j++) {
-            
-            objects.push({
-              name: sousKeys[j].replace(".svg", ""),
-              data: data[sousKeys[j]]
-            });
-          }
-        
+
+        /*
+        let myObj = {
+          "categories": [
+            {
+                "name": "icon-1",
+                "data": "DATA"
+            },
+            {
+              "name": "icon-1",
+              "data": "DATA"
+            },
+            {
+              "name": "icon-1",
+              "data": "DATA"
+            }
+          ],
+          "editorial": [
+            {
+              "name": "icon-2",
+              "data": "DATA"
+            }
+          ]
         }
-        return objects;
+        */
+        let myObj = {};
+        let keys = Object.keys(data);
+
+        for (var i = 0; i < keys.length; i++) {
+          //myObj[keys[i]] = keys[i];
+          subKeys = Object.keys(data[keys[i]]);
+          console.log(subKeys.length);
+          for(var j = 0; j < data[keys[i]].length; j++) {
+            myObj[keys[i]][j].name = subKeys[j].replace(".svg", "");
+          }
+        }
+
+        return myObj;
       })
     )
-    .pipe(gulp.dest("icons/editorial/"));
+    .pipe(gulp.dest("icons/editorial"));
 });
 
 // Task: Default
