@@ -1,0 +1,54 @@
+{{> styles-skip-links-section }}
+
+<header class="header-main-nav{{# navbarFixedTop}} is-fixed-top{{/navbarFixedTop}}">
+{{> components-navbar }}
+</header>
+
+<main class="main-content {{ pageClasses }}" id="main-content" aria-label="Main Content" role="main">
+
+  {{# breadcrumb}}
+  <div class="container pt-4 pt-lg-8">
+    <div class="row">
+      <div class="col-12">
+        {{> components-breadcrumbs}}
+      </div>
+    </div>
+  </div>
+  {{/ breadcrumb}}
+
+  <div class="region-content pt-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-8 order-lg-2">
+          <header class="content-header border-bottom-0 mb-4">
+
+            <h1>{{ heading }}</h1>
+
+            <p class="mb-0">Voluptua no dolor labore voluptua magna kasd sadipscing elitr, clita dolor at ipsum voluptua sadipscing eos ut consetetur nonumy. Takimata sit et magna eirmod justo, sanctus justo ut rebum sed, sanctus kasd diam invidunt sed et sea tempor magna labore. Sed voluptua dolore at magna labore eirmod. Clita sadipscing no.</p>
+
+          </header>
+
+          {{# listing}}
+          <div class="mb-8">
+            {{> components-list-group-content }}
+          </div>
+          {{/ listing}}
+        </div>
+        {{# sidebar }}
+        <aside class="col-12 col-lg-4 order-lg-1" role="complementary">
+          <div class="sidebar pt-8 pt-lg-0">
+            {{# listGroupSidebar}}
+            <div class="sb-block mb-4">
+              <h2 class="h4">{{ sidebarTitle }}</h2>
+              {{> components-list-item-link}}
+            </div>
+            {{/ listGroupSidebar}}
+          </div>
+        </aside>
+        {{/ sidebar }}
+      </div>
+    </div>
+  </div>
+</main>
+
+{{> patterns-footer-main }}

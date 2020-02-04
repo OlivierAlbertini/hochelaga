@@ -100,5 +100,6 @@
       "url": "#",
       "title": "Libellé"
     }
-  }
+  },
+  "pre-footer-arrondissement": true
 }

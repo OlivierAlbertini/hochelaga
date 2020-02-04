@@ -1,4 +1,5 @@
 {
   "bodyClass": "site-sticky-footer",
-  "navbarFixedTop": true
+  "navbarFixedTop": true,
+  "footerMinimal": true
 }

@@ -1,0 +1,154 @@
+{
+  "navbarFixedTop": true,
+  "pageClasses": false,
+  "breadcrumb": {
+    "breadcrumbs": [
+      {
+        "url": "#",
+        "text": "Accueil"
+      },
+      {
+        "url": "#",
+        "text": "Parent 1"
+      }
+    ]
+  },
+  "documentHeading": false,
+  "sidebarRight": false,
+  "updatedDate": {
+    "dateTimeText": "3 septembre 2019",
+    "dateTimeFormat": "2019-09-03"
+  },
+  "listing": {
+    "listGroupClass": false,
+    "listGroup": [
+      {
+        "url": false,
+        "type": false,
+        "title": "Titre du contenu",
+        "infos": {
+          "badge": false,
+          "infos-items": [
+            {
+              "text": "Lorem duo sit dolor ipsum at vero nonumy et lorem rebum. Et eos dolor magna no est. Amet lorem vero gubergren amet erat sed. Lorem sit at et et ea. Ipsum est ut erat vero sit. Clita takimata et diam."
+            }
+          ]
+        }
+      },
+      {
+        "url": false,
+        "type": false,
+        "title": "Titre du contenu",
+        "infos": {
+          "badge": false,
+          "infos-items": [
+            {
+              "text": "Lorem duo sit dolor ipsum at vero nonumy et lorem rebum. Et eos dolor magna no est. Amet lorem vero gubergren amet erat sed. Lorem sit at et et ea. Ipsum est ut erat vero sit. Clita takimata et diam."
+            }
+          ]
+        }
+      },
+      {
+        "url": false,
+        "type": false,
+        "title": "Titre du contenu",
+        "infos": {
+          "badge": false,
+          "infos-items": [
+            {
+              "text": "Lorem duo sit dolor ipsum at vero nonumy et lorem rebum. Et eos dolor magna no est. Amet lorem vero gubergren amet erat sed. Lorem sit at et et ea. Ipsum est ut erat vero sit. Clita takimata et diam."
+            }
+          ]
+        }
+      },
+      {
+        "url": false,
+        "type": false,
+        "title": "Titre du contenu",
+        "infos": {
+          "badge": false,
+          "infos-items": [
+            {
+              "text": "Lorem duo sit dolor ipsum at vero nonumy et lorem rebum. Et eos dolor magna no est. Amet lorem vero gubergren amet erat sed. Lorem sit at et et ea. Ipsum est ut erat vero sit. Clita takimata et diam."
+            }
+          ]
+        }
+      },
+      {
+        "url": false,
+        "type": false,
+        "title": "Titre du contenu",
+        "infos": {
+          "badge": false,
+          "infos-items": [
+            {
+              "text": "Lorem duo sit dolor ipsum at vero nonumy et lorem rebum. Et eos dolor magna no est. Amet lorem vero gubergren amet erat sed. Lorem sit at et et ea. Ipsum est ut erat vero sit. Clita takimata et diam."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sidebar": {
+    "listGroupSidebar": [
+      {
+        "listGroup": [
+          {
+            "url": "#",
+            "text": "Et sit sadipscing erat dolor",
+            "class": false,
+            "classLink": false,
+            "has-badge": {
+              "badge": "64"
+            }
+          },
+          {
+            "url": "#",
+            "text": "Dapibus ac facilisis in",
+            "class": false,
+            "has-badge": {
+              "badge": "4"
+            }
+          },
+          {
+            "url": "#",
+            "text": "Morbi leo risus",
+            "class": false,
+            "has-badge": {
+              "badge": "122"
+            }
+          }
+        ]
+      },
+      {
+        "listGroup": [
+          {
+            "url": "#",
+            "text": "Et sit sadipscing erat dolor",
+            "class": false,
+            "classLink": false,
+            "has-badge": {
+              "badge": "64"
+            }
+          },
+          {
+            "url": "#",
+            "text": "Dapibus ac facilisis in",
+            "class": false,
+            "has-badge": {
+              "badge": "4"
+            }
+          },
+          {
+            "url": "#",
+            "text": "Morbi leo risus",
+            "class": false,
+            "has-badge": {
+              "badge": "122"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

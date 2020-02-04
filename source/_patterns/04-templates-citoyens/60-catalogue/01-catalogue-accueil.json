@@ -1,0 +1,273 @@
+{
+  "bodyClass": "site-sticky-footer",
+  "navbarFixedTop": true,
+  "navbarMini": true,
+  "featuredSearch": {
+    "featuredContentID": "featured-home-search",
+    "featuredContentBgImage": "background-image: url(https://res.cloudinary.com/villemontreal/image/upload/q_auto,f_auto,dpr_auto/v1573672979/portail/background/EnteteVitrine_Commerciale.png)",
+    "inputGroupSearch": {
+      "formGroupLabel": false,
+      "inputID": "input-group-search",
+      "inputGroupIconClass": "input-group-icon-lg input-group-icon-left",
+      "iconAfter": false,
+      "icon-label": "002-recherche",
+      "formControlClass": "form-control-lg",
+      "inputPlaceholder": "Placeholder recherche..."
+    },
+    "quickLinks": {
+      "quickLinksItem": [
+        {
+          "url": "#",
+          "label": "Lorem ipsum"
+        },
+        {
+          "url": "#",
+          "label": "Dolor sit amet"
+        },
+        {
+          "url": "#",
+          "label": "Consectetur"
+        },
+        {
+          "url": "#",
+          "label": "Adipiscing elit"
+        },
+        {
+          "url": "#",
+          "label": "Curabitur"
+        },
+        {
+          "url": "#",
+          "label": "Vestibulum"
+        }
+      ]
+    }
+  },
+  "serviceSection": {
+    "headings": {
+      "text": "Titre de section"
+    },
+    "cards": {
+      "classes": false,
+      "bsgrid-classes": "col-12 col-md-6 col-lg-4",
+      "card-item" : [
+        {
+          "classes" : "card-service",
+          "data-link-title": "Nom du service",
+          "data-link-position": 1,
+          "url" : "#",
+          "card-media" : {
+            "icon" : "icon-maison-et-logement"
+          },
+          "card-title" : "Nom du service",
+          "card-text" : false
+        },
+        {
+          "classes" : "card-service",
+          "data-link-title": "Nom du service",
+          "data-link-position": 2,
+          "url" : "#",
+          "card-media" : {
+            "icon" : "icon-environnement"
+          },
+          "card-title" : "Nom du service",
+          "card-text" : false
+        },
+        {
+          "classes" : "card-service",
+          "data-link-title": "Nom du service",
+          "data-link-position": 3,
+          "url" : "#",
+          "card-media" : {
+            "icon" : "icon-culture-et-loisirs"
+          },
+          "card-title" : "Nom du service",
+          "card-text" : false
+        },
+        {
+          "classes" : "card-service",
+          "data-link-title": "Nom du service",
+          "data-link-position": 4,
+          "url" : "#",
+          "card-media" : {
+            "icon" : "icon-participation-citoyenne"
+          },
+          "card-title" : "Nom du service",
+          "card-text" : false
+        },
+        {
+          "classes" :  "card-service",
+          "data-link-title": "Nom du service",
+          "data-link-position": 5,
+          "url" : "#",
+          "card-media" : {
+            "icon" : "icon-taxes-et-evaluation-fonciere"
+          },
+          "card-title" : "Nom du service",
+          "card-text" : false
+        },
+        {
+          "classes" :  "card-service",
+          "data-link-title": "Nom du service",
+          "data-link-position": 6,
+          "url" : "#",
+          "card-media" : {
+            "icon" : "icon-vie-communautaire"
+          },
+          "card-title" : "Nom du service",
+          "card-text" : false
+        }
+      ]
+    }
+  },
+  "showCardsSection": true,
+  "sections": {
+    "cards": {
+      "classes": false,
+      "bsgrid-classes": "col-12 col-lg-4",
+      "card-item": [
+        {
+          "classes": false,
+          "data-link-title": "Quisque enim lacus mollis id fermentum quis mattis sit amet purus",
+          "url": "#",
+          "card-media": false,
+          "card-type": "Type",
+          "card-title": "Quisque enim lacus mollis id fermentum quis mattis sit amet purus",
+          "card-text-interface": {
+            "date-time": [
+              {
+                "text": false,
+                "dateTimeFormat": "2019-12-11",
+                "dateTimeText": "11 décembre 2019"
+              }
+            ]
+          }
+        },
+        {
+          "classes": false,
+          "data-link-title": "Sed iaculis nisl justo et fermentum augue sollicitudin",
+          "url": "#",
+          "card-media": false,
+          "card-type": "Type",
+          "card-title": "Sed iaculis nisl justo et fermentum augue sollicitudin",
+          "card-text-interface": {
+            "date-time": [
+              {
+                "text": false,
+                "dateTimeFormat": "2019-12-10",
+                "dateTimeText": "10 décembre 2019"
+              }
+            ]
+          }
+        },
+        {
+          "classes": false,
+          "data-link-title": "Sed ultrices ipsum vitae est dictum",
+          "url": "#",
+          "card-media": false,
+          "card-type": "Type",
+          "card-title": "Sed ultrices ipsum vitae est dictum",
+          "card-text-interface": {
+            "date-time": [
+              {
+                "text": false,
+                "dateTimeFormat": "2019-12-09",
+                "dateTimeText": "9 décembre 2019"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "button-cta": false
+  },
+  "news": {
+    "cards": {
+      "classes": false,
+      "bsgrid-classes": "col-12 col-lg-4",
+      "card-item": [
+        {
+          "classes": false,
+          "data-link-title": "Quisque enim lacus mollis id fermentum quis mattis sit amet purus",
+          "url": "#",
+          "card-media": {
+            "img": {
+              "src": "https://picsum.photos/id/553/768/432",
+              "alt": "Card #1 img alt."
+            }
+          },
+          "card-type": false,
+          "card-title": "Quisque enim lacus mollis id fermentum quis mattis sit amet purus",
+          "card-text-interface": {
+            "date-time": [
+              {
+                "text": false,
+                "dateTimeFormat": "2019-12-11",
+                "dateTimeText": "11 décembre 2019"
+              }
+            ]
+          }
+        },
+        {
+          "classes": false,
+          "data-link-title": "Sed iaculis nisl justo et fermentum augue sollicitudin",
+          "url": "#",
+          "card-media": {
+            "img": {
+              "src" : "https://picsum.photos/id/522/768/432",
+              "alt" : "Card #1 img alt."
+            }
+          },
+          "card-type": false,
+          "card-title": "Sed iaculis nisl justo et fermentum augue sollicitudin",
+          "card-text-interface": {
+            "date-time": [
+              {
+                "text": false,
+                "dateTimeFormat": "2019-12-10",
+                "dateTimeText": "10 décembre 2019"
+              }
+            ]
+          }
+        },
+        {
+          "classes": false,
+          "data-link-title": "Sed ultrices ipsum vitae est dictum",
+          "url": "#",
+          "card-media": {
+            "img" : {
+              "src" : "https://picsum.photos/id/527/768/432",
+              "alt" : "Card #1 img alt."
+            }
+          },
+          "card-type": false,
+          "card-title": "Sed ultrices ipsum vitae est dictum",
+          "card-text-interface": {
+            "date-time": [
+              {
+                "text": false,
+                "dateTimeFormat": "2019-12-09",
+                "dateTimeText": "9 décembre 2019"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "button-cta": {
+      "data-link-title": "Toutes les nouvelles",
+      "buttonAsLink": true,
+      "buttonClass": "btn-secondary",
+      "buttonUrl": "#",
+      "buttonText": "Toutes les nouvelles"
+    }
+  },
+  "topRow": {
+    "portal": false,
+    "other": true
+  },
+  "boroughRow": false,
+  "pre-footer-arrondissement": false,
+  "pre-footer-apropos": true
+}
+

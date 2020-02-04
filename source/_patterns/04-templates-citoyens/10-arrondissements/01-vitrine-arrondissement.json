@@ -146,5 +146,6 @@
       }
     },
     "comite-conseils": false
-  }
+  },
+  "pre-footer-arrondissement": true
 }

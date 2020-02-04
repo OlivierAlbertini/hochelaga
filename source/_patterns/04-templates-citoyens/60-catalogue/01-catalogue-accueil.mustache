@@ -1,0 +1,107 @@
+{{> styles-skip-links-section }}
+
+<header class="header-main-nav{{# navbarFixedTop}} is-fixed-top{{/navbarFixedTop}}{{# navbarMini}} is-mini{{/navbarMini}}">
+{{> components-navbar-mini }}
+</header>
+
+<main class="site-main-content main-content {{ pageClasses }}" id="main-content" aria-label="Main Content">
+
+  {{# featuredSearch}}
+  <div id="{{ featuredContentID }}" class="bg-image-section pt-8 pt-lg-16 pb-6 pb-lg-12"{{# featuredContentBgImage }} style="{{ featuredContentBgImage }}"{{/ featuredContentBgImage }} data-component-type="recherche">
+    <div class="container">
+      <div class="row justify-content-center">
+        {{# headings.text}}
+        <div class="col-12 col-lg-8 text-center">
+          <h2>{{ headings.text }}</h2>
+        </div>
+        {{/ headings.text}}
+        <div class="col-12 col-lg-6 text-center">
+          <div class="form-group form-group-lg">
+            <div class="input-group-icon input-group-icon-left">
+              <input type="text" class="form-control input-rounded" id="input-group-search" placeholder="{{inputGroupSearch.inputPlaceholder}}">
+              <span class="icon icon-search" aria-hidden="true"></span>
+            </div>
+          </div>
+          {{# quickLinks }}
+          <div class="quick-links mb-1 mb-lg-3">
+            <ul class="list-inline">
+              {{# quickLinksItem }}
+              <li class="list-inline-item">
+                <a href="{{ url }}" class="btn btn-sm btn-primary-reverse" data-link-title="{{label}}">{{ label }}</a>
+              </li>
+              {{/ quickLinksItem }}
+            </ul>
+          </div>
+          {{/ quickLinks }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/ featuredSearch}}
+
+  {{# serviceSection}}
+  <div class="pt-8 pt-lg-16 pb-4 pb-lg-12 bg-light" id="featuredServices" data-component-type="services-vedettes">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>{{ headings.text }}</h2>
+        </div>
+      </div>
+      <div class="row cards">
+        {{# cards.card-item}}
+        <div class="{{ cards.bsgrid-classes }}">
+          {{> components-card-item }}
+        </div>
+        {{/ cards.card-item}}
+      </div>
+    </div>
+  </div>
+  {{/ serviceSection}}
+
+  {{# showCardsSection}}
+  <div class="pt-8 pb-4 pt-lg-16 pb-lg-8">
+    <div class="container">
+      {{# sections }}
+      <div class="pb-lg-4" data-component-type="sommaire-x">
+        <h2>Titre de section</h2>
+        <div class="row cards">
+        {{# cards.card-item }}
+          <div class="{{ cards.bsgrid-classes }}">
+            {{> components-card-item }}
+          </div>
+        {{/ cards.card-item }}
+        </div>
+        {{# button-cta}}
+        <div class="d-flex justify-content-center mt-0 mb-4 my-lg-4">
+        {{> components-button}}
+        </div>
+        {{/ button-cta}}
+      </div>
+      {{/ sections }}
+      {{# news }}
+      <div class="pt-4 pt-lg-8 pb-lg-4" data-component-type="sommaire-nouvelles">
+        <h2>Nouvelles</h2>
+        <div class="row cards">
+        {{# cards.card-item }}
+          <div class="{{ cards.bsgrid-classes }}">
+            {{> components-card-item }}
+          </div>
+        {{/ cards.card-item }}
+        </div>
+        {{# button-cta}}
+        <div class="d-flex justify-content-center mt-0 mb-4 my-lg-4">
+        {{> components-button}}
+        </div>
+        {{/ button-cta}}
+      </div>
+      {{/ news }}
+    </div>
+  </div>
+  {{/ showCardsSection}}
+
+</main>
+
+{{> patterns-pre-footer}}
+
+{{> patterns-footer-main }}
+
